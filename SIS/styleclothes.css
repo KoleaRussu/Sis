@@ -1,0 +1,126 @@
+.clothesstyle { 
+    position: absolute;
+
+    top: 150px;
+    left: 300px;
+    width: 500px;
+    height: 500px;
+  
+}
+.styletextclothes {
+    color: rgb(75, 75, 75);
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-weight:600;
+    margin-left:1000px;
+    margin-top: 140px;
+}
+    
+.styleh2text {
+    color: #000000;
+    margin-left:1000px;
+    margin-top: -50px;
+}
+
+.clothesprice {
+    color: #000000;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left:1005px;
+    margin-top: -20px;
+
+}
+#bordersize{
+    position: absolute;
+
+    margin-left:1005px;
+    margin-top: 100px;
+}
+
+#bordersize td{
+    margin: 2px;
+    border:1px solid black;
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(180, 180, 180, 0.63);
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+}
+#bordersize td:hover{
+    border: 1px solid rgb(123, 9, 123);
+    background-color: rgb(255, 255, 255);
+    color: rgba(195, 0, 255, 0.973); 
+}
+#texth2add {
+    position: absolute;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    width: 300px;
+    height: 50px;
+    font-size: 35px;
+    text-align: center;
+    margin-left:1005px;
+    margin-top: 285px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+#texth2add:hover{
+    border: 1px solid rgb(123, 9, 123);
+    background-color: rgb(255, 255, 255);
+    color: rgba(195, 0, 255, 0.973); 
+}
+
+.clothestyletextdescription {
+    position: absolute;
+    font-size: 20px;
+    font-style:italic;
+    font-weight: 500;
+    color:black;
+    margin-top: 560px;
+    margin-left: 300px;
+}
+.textdescription {
+    position: absolute;
+    font-size: 30px;
+    color: black;
+    margin-top: 520px;
+    margin-left: 300px;
+}
+.reviews {
+    position: absolute;
+    font-size: 20px;
+    color: black;
+    margin-left: 1005px;
+    margin-top: 500px;
+}
+#imgreviews {
+    position:absolute;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 1380px;
+    margin-top: 490px;
+}
+
+#imgreviews .imgesreviews {
+    height: 50px;
+    width: 50px;
+}
+#footer {
+    position:absolute;
+    top: 1100px;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 160px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      
+}

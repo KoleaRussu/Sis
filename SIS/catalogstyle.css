@@ -1,0 +1,119 @@
+#main {
+    position: absolute;
+    top: 170px;
+    left: 100px;
+
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+}
+
+
+#katalog{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    
+
+    width: 300px;
+    height: 800px;
+
+    background-image: url(../public/Rectangle\ 11.png);
+}
+#katalog a{
+ text-decoration: none;
+}
+.styletext {
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-style:italic;
+    margin-left: 40px;
+    font-weight: bold;
+}
+#katalog p{
+    margin-top: -50px;
+}
+#katalog .selecti {
+    margin-top: -50px;
+}
+#katalog .selectiWomenKIds{
+    margin-top: -80px;
+}
+
+.textsection {
+    color: rgb(98, 0, 110);
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+
+.textcatalog {
+    position: absolute;
+    color: black;
+    font-size: 20px;
+    top:80px;
+    left: 160px;
+}
+#fotossale {
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top:120px;
+    left: 330px;
+}
+#fotossale .columsfoto {
+    top:250px;
+    left: 150px;
+    margin: 20px;
+}
+#fotossale a {
+    text-decoration: none;
+    color: black;
+}
+
+.imgsize {
+    height: 250px;
+    width: 250px;
+}
+
+.pageallclothing {
+    position: absolute;
+    font-size: 75px;
+    color: rgb(98, 0, 110);
+    top: 70px;
+    left: 450px;
+}
+.allcolothing {
+    color: rgb(75, 75, 75);
+    margin-top: -20px;
+    font-size: 15px;
+    margin-left:2px;
+    letter-spacing: 1px;
+    font-weight:600;
+    
+}
+.allcolothing_divtext {
+    color: #000000;
+    margin-top: -10px;
+    line-height: 15px;
+    font-size: 15px;
+    margin-left:2px;
+}
+.price {
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    margin-top: -50px;
+    margin-left: 210px;
+}
+#footer {
+    position:absolute;
+    top: 115%;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 160px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      
+}

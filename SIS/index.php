@@ -17,8 +17,8 @@
 
             <nav class="nav">
                 <a class="nav_link" href="MEN.">MEN</a>
-                <a class="nav_link" href="New.php">NEW</a>
-                <a class="nav_link" href="New.php">NEW</a>
+                <a class="nav_link" href="new.php">Collection</a>
+                <a class="nav_link" href="men2.php">Kard</a>
             </nav>
         </div>
     </div>
@@ -29,6 +29,7 @@
     </div>
 
 <div>
+<div id = "section">
     <?php 
         $arr = ['assets/images/1.jpg','assets/images/2.jpg','assets/images/3.jpg','assets/images/4.jpg','assets/images/5.jpg','assets/images/6.jpg'];
         for($i = 0; $i < 5; $i++){
@@ -38,18 +39,20 @@
             <img src='.$arr[$i].' alt="">
             <h3 class="section_divtext"><a href="#">Sneakers</a></h3>
         </div>';
+        
         }
         ?>
+</div>
 </div>
 
         <p>Buy the most interesting things
             <?php
-                $image = "assets/images/Buy23.jpg";
-                if ($image) {
-                    echo '<img src='".$image."'>
-                    <h5 class="baner_text3">CLOTHESFORYOU</h5>
-                    <p class="baner_textp">nexpensive but very high quality products at the <br>best prices, hit the shop and go shopping.<br></p>
-                    <a class="baner_texta" href=''>Shop</a>';
+                $image = "/assets/images/Buy23.jpg";
+                if (true) {
+                    echo "<img src='$image'>
+                    <h5 class='baner_text3'>CLOTHESFORYOU</h5>
+                    <p class='baner_textp'>nexpensive but very high quality products at the <br>best prices, hit the shop and go shopping.<br></p>
+                    <a class='baner_texta' href=''>Shop</a>";
                 } else {
                     echo 'No baner';
                 }

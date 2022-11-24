@@ -18,9 +18,9 @@
             <div class="header__logo"><a class="header_link" href="index.html">CLOTHESFORYOU</a></div>
 
             <nav class="nav">
-                <a class="nav_link" href="index.php">Home</a>
+            <a class="nav_link" href="MEN.">MEN</a>
                 <a class="nav_link" href="new.php">Collection</a>
-                <a class="nav_link" href="KIDS.html"></a>
+                <a class="nav_link" href="men2.php">Kard</a>
         </div>
     </div>
 </header>
@@ -28,10 +28,12 @@
             <?php
                 $image = "assets/images/Buy.jpg";
                 if ($image) {
-                    echo '<img src='".$image."'>
+                    echo '<div id = "closescolection">
+                    <img src='.$image.'>
                     <div class="collectiontextstyle">
                     <h1>Items for the week in the new collection <br>CLOTHESFORYOU</h1>
-                </div>'
+                </div>
+                        </div>';
                 } else {
                     echo 'Winter collection';
                 }
@@ -44,7 +46,7 @@
 
 <div>
     <?php 
-        $colections = ['assets/images/10.jpg','assets/images/11.jpg','assets/images/12.jpg'];
+        $colections = ['assets/images/10.png','assets/images/11.png','assets/images/12.png'];
         for($i = 0; $i < 3; $i++){
      echo '<div id="closescolection">
             <img src='.$colections[$i].' alt="">
