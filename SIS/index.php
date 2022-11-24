@@ -16,16 +16,13 @@
             <div class="header__logo"><a class="header_link" href="index.html">CLOTHESFORYOU</a></div>
 
             <nav class="nav">
-                <a class="nav_link" href="MEN.html">MEN</a>
-                <a class="nav_link" href="New.html">NEW</a>
-                <a class="nav_link" href="collection.html">COLLECTION</a>
-                <a class="nav_link" href="card.html">CART</a>
+                <a class="nav_link" href="MEN.">MEN</a>
+                <a class="nav_link" href="New.php">NEW</a>
+                <a class="nav_link" href="New.php">NEW</a>
             </nav>
         </div>
     </div>
 </header>
-<section id="section">
-
     <div class="new_text">
         <h2>New items</h2>
         <p>These are the newest <br>and best things, the best quaity.<br></p>
@@ -33,26 +30,28 @@
 
 <div>
     <?php 
-        for($i = 0; $i < 5; $i++)
-        ?>
-    <div class="new_sotion">
+        $arr = ['assets/images/1.jpg','assets/images/2.jpg','assets/images/3.jpg','assets/images/4.jpg','assets/images/5.jpg','assets/images/6.jpg'];
+        for($i = 0; $i < 5; $i++){
+        
+     echo '<div class="new_sotion">
         <div>
-            <img src="img/<?php echo ($i + 1)?>.jpg" alt="">
+            <img src='.$arr[$i].' alt="">
             <h3 class="section_divtext"><a href="#">Sneakers</a></h3>
-        </div>
-        <?php endfor; ?>
+        </div>';
+        }
+        ?>
 </div>
-</section>
 
         <p>Buy the most interesting things
             <?php
                 $image = "assets/images/Buy23.jpg";
                 if ($image) {
-                    echo "<img src='".$image."'>";
-                } else {
-                    echo "<h5 class="baner_text3">CLOTHESFORYOU</h5>
+                    echo '<img src='".$image."'>
+                    <h5 class="baner_text3">CLOTHESFORYOU</h5>
                     <p class="baner_textp">nexpensive but very high quality products at the <br>best prices, hit the shop and go shopping.<br></p>
-                    <a class="baner_texta" href="#">Shop</a>";
+                    <a class="baner_texta" href=''>Shop</a>';
+                } else {
+                    echo 'No baner';
                 }
             ?>
         </p>

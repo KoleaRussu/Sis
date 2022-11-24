@@ -1,0 +1,51 @@
+
+
+#bannercollection {
+    position: absolute;
+    top: 150px;
+    left: 142px;
+}
+
+#bannercollection .collectiontextstyle { 
+    line-height: 50px;
+    font-size: 30px;
+    margin-top: -420px;
+    text-align: center;
+    color: blanchedalmond;
+}
+
+.colletiontextversions {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    text-decoration: underline;
+    font-weight: 500;
+    top: 750px;
+    left: 410px;
+}
+
+#closescolection { 
+    position: absolute;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    top: 900px;
+    left: 90px;
+}
+
+#closescolection img { 
+    width: 450px;
+    height: 750px;
+    margin: 25px;
+}
+#footer {
+    position:absolute;
+    top: 1850px;
+    background-color: rgb(219, 219, 219);
+    width: 100%;
+    height: 160px;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+      
+}
